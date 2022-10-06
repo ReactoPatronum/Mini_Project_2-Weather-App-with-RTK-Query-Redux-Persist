@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -23,4 +27,79 @@ a {
     color: white;
     background: black;
   }
+}
+
+.Snow {
+  background-image: url("../public/snow.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.Clear {
+  background-image: url("../public/clear.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.Clouds {
+  background-image: url("../public/cloudly.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.drizzle {
+  background-image: url("../public/drizzle.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.Fog,
+.Mist,
+.Smoke,
+.Haze,
+.Dust,
+.Sand,
+.Ash,
+.Squall,
+.Tornado {
+  background-image: url("../public/foggy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.Rain {
+  background-image: url("../public/rain.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.Thunderstorm {
+  background-image: url("../public/thunderstorm.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.shdw {
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
 }
